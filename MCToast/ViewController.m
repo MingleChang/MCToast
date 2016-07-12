@@ -33,7 +33,9 @@
     
     [MCToastManager showText:@"这是一个测试这是一个测试这是一个测试这是一个测试这是一个测试"];
     for (UIWindow *window in [UIApplication sharedApplication].windows) {
+        NSNumber *lNumber=[window valueForKey:@"windowSublevel"];
         NSLog(@"%f",window.windowLevel);
+        NSLog(@"%f",lNumber.doubleValue);
     }
 }
 

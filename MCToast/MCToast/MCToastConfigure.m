@@ -8,4 +8,4 @@
 
 #import "MCToastConfigure.h"
 
-CGFloat const toastWindowLevel=90000000.000000;
+CGFloat const toastWindowLevel=10000000;
